@@ -4,6 +4,37 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>it storeall</title>
+    <link rel="stylesheet" href="./CSS/styles.css" />
   </head>
-  <body></body>
+  <body>
+    <div class="section">
+      <div class="container">
+        <form class="form" id="form">
+          <div class="form_group">
+            <input
+              class="form_input"
+              type="text"
+              name="name"
+              placeholder=" "
+              required=""
+            />
+            <label class="form_label">Имя</label>
+          </div>
+          <div class="form_group">
+            <input
+              class="form_input"
+              type="tel"
+              name="phone"
+              placeholder=" "
+              required=""
+            />
+            <label class="form_label">Телефон</label>
+          </div>
+          <button class="form_button">Отправить заявку</button>
+        </form>
+      </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
+    <script src="/JS/form.js"></script>
+  </body>
 </html>
